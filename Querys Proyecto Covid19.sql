@@ -5,9 +5,9 @@
 
 --Selecciono INFO que voy a usar
 
---SELECT location, date, total_cases, new_cases, total_deaths, population
---FROM Portfolio..CovidDeaths$
---order by 1,2
+SELECT location, date, total_cases, new_cases, total_deaths, population
+FROM Portfolio..CovidDeaths$
+ORDER BY 1,2
 
 
 --Calculo la probabilidad de sobrevivir al contraer COVID segun pais 
